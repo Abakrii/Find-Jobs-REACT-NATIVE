@@ -3,7 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import {createBottomTabNavigator ,createAppContainer} from 'react-navigation';
 import AuthScreen from './src/screens/AuthScreen/AuthScreen';
 import WelcomeScreen from './src/screens/WelcomeScreen/WelcomeScreen';
+import MapScreen from "./src/screens/MapScreen/MapScreen";
+import DeckScreen from './src/screens/DeckScreen/DeckScreen';
 export default class App extends React.Component {
+
   render() {
     const TabNavigator = createBottomTabNavigator({
       Welcome :{
@@ -11,6 +14,16 @@ export default class App extends React.Component {
       },
       Auth:{
         screen: AuthScreen
+      },
+      Main :{
+        screen : createBottomTabNavigator({
+          Map: {
+            screen : MapScreen
+          },
+          Deck : {
+            screen : DeckScreen
+          }
+        })
       }
     });
 
