@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437d1140-dd7a-4c1f-ac6c-2cac0bfc9eb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Slides/Slides.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/WelcomeScreen/WelcomeScreen.js" afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen/WelcomeScreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Slides/Slides.js" afterPath="$PROJECT_DIR$/src/components/Slides/Slides.js" />
     </list>
     <ignored path="jobs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="Slides.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Slides/Slides.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -65,8 +63,8 @@
       <file leaf-file-name="WelcomeScreen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/WelcomeScreen/WelcomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -107,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/screens/SettingScreen/SettingScreen.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/screens/ReviewScreen/ReviewScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/Slides/Slides.js" />
         <option value="$PROJECT_DIR$/src/screens/WelcomeScreen/WelcomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/Slides/Slides.js" />
       </list>
     </option>
   </component>
@@ -293,12 +291,12 @@
       <workItem from="1545430415445" duration="1445000" />
       <workItem from="1545432968992" duration="4440000" />
       <workItem from="1545515720924" duration="2688000" />
-      <workItem from="1545549700388" duration="6702000" />
+      <workItem from="1545549700388" duration="9378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18754000" />
+    <option name="totallyTimeSpent" value="21430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -686,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Slides/Slides.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -696,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/WelcomeScreen/WelcomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
