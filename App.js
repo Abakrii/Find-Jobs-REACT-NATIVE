@@ -1,10 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import {createBottomTabNavigator ,createAppContainer} from 'react-navigation';
+import {createBottomTabNavigator ,createAppContainer , createStackNavigator} from 'react-navigation';
 import AuthScreen from './src/screens/AuthScreen/AuthScreen';
 import WelcomeScreen from './src/screens/WelcomeScreen/WelcomeScreen';
 import MapScreen from "./src/screens/MapScreen/MapScreen";
 import DeckScreen from './src/screens/DeckScreen/DeckScreen';
+import ReviewScreen from "./src/screens/ReviewScreen/ReviewScreen";
+import SettingScreen from "./src/screens/SettingScreen/SettingScreen";
 export default class App extends React.Component {
 
   render() {
@@ -22,6 +24,16 @@ export default class App extends React.Component {
           },
           Deck : {
             screen : DeckScreen
+          },
+          Review :{
+            screen : createStackNavigator({
+              Review:{
+                screen : ReviewScreen
+              },
+              Settings:{
+                screen : SettingScreen
+              }
+            })
           }
         })
       }
