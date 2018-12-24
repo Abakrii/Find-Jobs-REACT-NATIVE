@@ -42,14 +42,10 @@ export default class App extends React.Component {
     },{
       navigationOptions:{
         tabBarVisible: false
-
       },
-
       lazy : true,
-
     });
 
-    console.log(TabNavigator);
 
     // const MainNavigator = createAppContainer(TabNavigator);
 
