@@ -17,7 +17,7 @@ export default class App extends React.Component {
         screen : WelcomeScreen
       },
       Auth:{
-        screen: AuthScreen
+        screen: <AuthScreen></AuthScreen>
       },
       Main :{
         screen : createBottomTabNavigator({
@@ -39,15 +39,24 @@ export default class App extends React.Component {
           }
         })
       }
+    },{
+      navigationOptions:{
+        tabBarVisible: false
+
+      },
+
+      lazy : true,
+
     });
 
+    console.log(TabNavigator);
 
-    const MainNavigator = createAppContainer(TabNavigator);
+    // const MainNavigator = createAppContainer(TabNavigator);
 
     return (
           <Provider store={configureStore}>
           
-               <MainNavigator/>
+               <TabNavigator/>
 
             </Provider>
 
