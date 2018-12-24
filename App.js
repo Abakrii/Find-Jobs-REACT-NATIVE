@@ -17,7 +17,7 @@ export default class App extends React.Component {
         screen : WelcomeScreen
       },
       Auth:{
-        screen: <AuthScreen></AuthScreen>
+        screen: AuthScreen
       },
       Main :{
         screen : createBottomTabNavigator({
