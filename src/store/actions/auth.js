@@ -33,7 +33,7 @@ const doFacebookLogin = async dispatch=>{
     }
    await AsyncStorage.setItem('fb_token' , token);
     dispatch({type: FACEBOOK_LOGIN_SUCCESS , payload: token });
-
+    
 
 };
 
