@@ -34,8 +34,10 @@ class MapScreen extends Component {
             <View style={{flex :1}}>
                 <MapView
                     region={this.state.region}
-                    style={{flex : 1}}/>
+                    style={{flex : 1}}
                     onRegionChangeComplete={this.onRegionChangeComplete}
+                />
+
             </View>
         );
     }
